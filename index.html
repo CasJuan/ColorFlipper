@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Flipper</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fivIcon.png" type="image/x-icon">
 </head>
 <body>
     <main>
-        <div>
+        <div class="container-principal">
             <h1>Color Flipper</h1>
-            <ul>
-                <li><button>Primarios</button></li>
-                <li><button>Secundarios</button></li>
-                <li><button>Hexadecimal</button></li>
+            <ul class="list-btn">
+                <li><button id="btn-primario" class="button">Primarios</button></li>
+                <li><button id="btn-secundario" class="button">Secundarios</button></li>
+                <li><button id="btn-hexa" class="button">Hexadecimal</button></li>
             </ul>
-            <div>
-                <h2>Background color : </h2>
-                <span>#F1f5f8</span>
+            <div class="container-secundario">
+                <h2>Background color : <span id="color"></span> </h2>
             </div>
         </div>
     </main>
     
-    <script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
